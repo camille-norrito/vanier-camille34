@@ -1,0 +1,41 @@
+.hero {
+    background-color: var(--gray-800);
+    color: var(--white);
+    /* texte blanc */
+    height: 400px;
+    /* hauteur du rectangle */
+    display: flex;
+    align-items: center;
+    /* centre verticalement */
+    justify-content: center;
+    /* centre horizontalement */
+    text-align: center;
+    padding: var(--space2x);
+}
+
+.hero__content h1 {
+    font-size: var(--fs-4xl);
+    font-family: var(--font-glory);
+    margin-bottom: var(--space1x);
+}
+
+.hero__content p {
+    font-size: var(--fs-lg);
+    font-family: var(--font-anton);
+    margin-bottom: var(--space2x);
+}
+
+.hero__btn {
+    background-color: var(--white);
+    color: var(--rouille);
+    padding: var(--space1x) var(--space2x);
+    border-radius: 9999px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.hero__btn:hover {
+    background-color: var(--gray-200);
+    color: var(--black);
+}
